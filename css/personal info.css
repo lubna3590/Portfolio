@@ -1,0 +1,59 @@
+*{
+
+	font-family: sans-serif;
+	background-color: #1c1c17;
+}
+
+.about{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: -4rem;
+	color: white;
+}
+
+.about span{
+	color: LightGreen;
+}
+.about-img img{
+	max-width: 420px;
+	height: auto;
+	width: 100%;
+	border-radius: 8px;
+	margin-top: 6%;
+	margin-left: 5%;
+}
+.about-text h1{
+	font-size: 40px;
+	line-height: 1;
+}
+
+.about-text h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: DarkSeaGreen;
+	line-height: 1.7;
+	margin: 15px 0 30px;
+}
+.about-text p{
+	color: Thistle;
+	font-size: var(--p-font);
+	line-height: 1.8;
+	margin-bottom: 4rem 
+}
+
+button{
+	 background-color: DarkSeaGreen;
+	 color: MintCream;
+	 text-decoration: none;
+	 border: 2px solid transparent;
+	 font-weight: bold;
+	 padding: 13px 30px;
+	 border-radius: 30px;
+	 transition: .4s;
+}
+button:hover{
+	 background-color: transparent;
+	 border: 2px solid MediumSeaGreen;
+	 cursor: pointer;
+}
